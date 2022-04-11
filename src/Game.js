@@ -1,15 +1,25 @@
-import Clock from './Clock';
+import React, { Component } from "react";
+import PropTypes from "prop-types";
 
-function Game() {
-    return (
-        <div>
-            Hello Wolrd
-            <Clock date={new Date()} />
-        </div>
-    );
+import Clock from "./Clock";
+
+class Game extends Component {
+    render() {
+        return (
+            <div>
+                {this.props.greet}
+                <Clock />
+            </div>
+        );
+    }
 }
 
-export default Game;
+Game.defaultProps = {
+    greet: "Hello World",
+};
 
-//  <Clock date={new Date()} />
-// <h2>It is {this.props.date.toLocaleTimeString()}.</h2>
+Game.propTypes = {
+    greet: PropTypes.string,
+};
+
+export default Game;
