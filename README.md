@@ -1,10 +1,16 @@
 # Clase 9
-## Ejercicio
 
-* Crear una clase React.component que remplace a Game.js
-* Encontrar la forma de que el reloj en Clock.js se actualice cada segundo...
+## Ejercicio clase 9
 
----
+-   Crear una clase React.component que remplace a Game.js
+-   Encontrar la forma de que el reloj en Clock.js se actualice cada segundo...
+
+## Ejercicio clase 10
+
+### Crear componentes de React como los que hicimos en la clase 4
+
+-   Boton
+-   Lista
 
 # Getting Started with Create React App
 

@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 
 import Clock from "./Clock";
+import Button from "./components/Button";
 
 class Game extends Component {
     render() {
@@ -9,6 +10,7 @@ class Game extends Component {
             <div>
                 {this.props.greet}
                 <Clock />
+                <Button text="Click me" />
             </div>
         );
     }
